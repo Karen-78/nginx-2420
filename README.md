@@ -109,10 +109,12 @@ sudo vim /etc/nginx/nginx.conf
 ```
 
 At the end of the http block, append: include sites-enabled/*;
+```
 http {
     ...
     include sites-enabled/*;
 }
+```
 
 
 12. Restart nginx to load the new configuration.
