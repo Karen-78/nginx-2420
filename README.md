@@ -69,7 +69,7 @@ sudo mkdir -p /etc/nginx/sites-available
 ```
 and
 ```
-sudo mkdir -p /etc/nginx/sites/enabled
+sudo mkdir -p /etc/nginx/sites-enabled
 ```
 The sites-available and sites-enabled directories should be created inside /etc/nginx directory so nginx is able to locate it, and it will follow conventions and best-practices. The sites-available directory will contain the configuration for all the sites you have on your system. The sites-enabled directory will contain symbolic links to files in your sites-available directory that you actually want to enable and turn on. 
 
