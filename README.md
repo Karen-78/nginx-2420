@@ -115,9 +115,9 @@ http {
 }
 
 
-11. Restart nginx to load the new configuration.
+12. Restart nginx to load the new configuration.
 ```
 sudo systemctl restart nginx
 ```
 
-12. Check your site by entering your DigitalOcean Droplet's IP address into your web browser. There is a screenshot of what your screen should look like. This is the rendered version of the HTML file in sudo vim /web/html/nginx-2420/index.html
+13. Check your site by entering your DigitalOcean Droplet's IP address into your web browser. There is a screenshot of what your screen should look like. This is the rendered version of the HTML file in sudo vim /web/html/nginx-2420/index.html
