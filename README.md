@@ -103,6 +103,18 @@ It will let you know if there are errors.
 sudo ln -s /etc/nginx/sites-available/nginx-2420.conf /etc/nginx/sites-enabled/nginx-2420.conf
 ```
 
+11. Edit nginx configuration file. 
+```
+sudo vim /etc/nginx/nginx.conf
+```
+
+At the end of the http block, append: include sites-enabled/*;
+http {
+    ...
+    include sites-enabled/*;
+}
+
+
 11. Restart nginx to load the new configuration.
 ```
 sudo systemctl restart nginx
